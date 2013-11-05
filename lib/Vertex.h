@@ -93,7 +93,7 @@ public:
         return ptr->m_order;
     }
 
-    const int original_order(){
+    int original_order() const {
         return m_order;
     }
 
